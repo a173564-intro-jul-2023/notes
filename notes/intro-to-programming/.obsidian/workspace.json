@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,8 +170,8 @@
   "active": "1f253b8f8e446eb9",
   "lastOpenFiles": [
     "2023-07-17.md",
-    "2023-07-19.md",
     "2023-07-18.md",
+    "2023-07-19.md",
     "2023-07-16.md"
   ]
 }
