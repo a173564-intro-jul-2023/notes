@@ -10,7 +10,7 @@ public class NewAccounts
     public void NewAccountsHaveCorrectOpeningBalance()
     {
         // Creates new instance of the BankAccount class
-        var account = new BankAccount();
+        var account = new BankAccount(new Mock<ICanCalculateBonusesForBankAccountDeposits>().Object);
 
         // Calls GetBalance method from BankAccount object
         decimal balance = account.GetBalance();

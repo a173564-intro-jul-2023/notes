@@ -1,5 +1,6 @@
 ﻿
 using Banking.Domain;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Banking.UnitTests.BankAccounts;
 
@@ -9,7 +10,7 @@ public class MakingDeposits
     public void DepositsIncreaseTheBalance()
     {
         // Given - arrange
-        var account = new BankAccount();
+        var account = new BankAccount(new Mock<ICanCalculateBonusesForBankAccountDeposits>().Object);
         var openingBalance = account.GetBalance();
         var amountToDeposit = 100.23M;
 

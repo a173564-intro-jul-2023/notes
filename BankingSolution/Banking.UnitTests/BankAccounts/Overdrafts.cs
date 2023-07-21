@@ -8,7 +8,7 @@ public class Overdrafts
     [Fact (Skip = "Undesired original behavior, was fixed")]
     public void BadCurrentBehavior()
     {
-        var account = new BankAccount();
+        var account = new BankAccount(new Mock<ICanCalculateBonusesForBankAccountDeposits>().Object);
         var openingBalance = account.GetBalance();
         var amountToWithdraw = openingBalance + 0.01M;
 
@@ -20,7 +20,7 @@ public class Overdrafts
     [Fact]
     public void DoesNotDecreaseTheBalanceAndThrowsException()
     {
-        var account = new BankAccount();
+        var account = new BankAccount(new Mock<ICanCalculateBonusesForBankAccountDeposits>().Object);
         var openingBalance = account.GetBalance();
         var amountToWithdraw = openingBalance + 0.01M;
 

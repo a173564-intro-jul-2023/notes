@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-07-20.md",
+                "file": "2023-07-21.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-07-20.md"
+                "file": "2023-07-21.md"
               }
             }
           }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-07-20.md",
+                "file": "2023-07-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-07-20.md",
+                "file": "2023-07-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +170,10 @@
   "active": "1f253b8f8e446eb9",
   "lastOpenFiles": [
     "2023-07-19.md",
-    "2023-07-20.md",
-    "2023-07-17.md",
     "2023-07-18.md",
+    "2023-07-17.md",
+    "2023-07-20.md",
+    "2023-07-21.md",
     "2023-07-16.md"
   ]
 }

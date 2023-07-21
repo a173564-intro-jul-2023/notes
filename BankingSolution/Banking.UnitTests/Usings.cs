@@ -1,2 +1,3 @@
 global using Xunit;
-using Banking.Domain;
+global using Banking.Domain;
+global using Moq;
