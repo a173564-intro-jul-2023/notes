@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-07-25.md",
+                "file": "2023-07-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-07-25.md"
+                "file": "2023-07-26.md"
               }
             }
           }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-07-25.md",
+                "file": "2023-07-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-07-25.md",
+                "file": "2023-07-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,10 +167,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1f253b8f8e446eb9",
+  "active": "91b68a486fd3324b",
   "lastOpenFiles": [
-    "2023-07-24.md",
     "2023-07-25.md",
+    "2023-07-26.md",
+    "2023-07-24.md",
     "2023-07-21.md",
     "2023-07-17.md",
     "2023-07-20.md",
