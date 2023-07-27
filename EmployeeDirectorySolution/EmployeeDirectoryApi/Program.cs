@@ -1,9 +1,17 @@
 using EmployeeDirectoryApi;
 using EmployeeDirectoryApi.Controllers;
+using EmployeeDirectoryApi.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var employeeConnectionString = builder.Configuration.GetConnectionString("employees") ?? throw new Exception("Can't find the connection string");
+builder.Services.AddDbContext<EmployeesDataContext>(options =>
+{
+    options.UseNpgsql(employeeConnectionString);
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
